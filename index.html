@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>เกมงูเก็บเหรียญ (Snake Coin Game)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    <h1>🐍 เกมงูเก็บเหรียญ 🪙</h1>
+    
+    <div class="score-board">
+      คะแนน: <span id="score">0</span>
+    </div>
+
+    <!-- กระดานสำหรับวาดเกม -->
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+    <div class="controls-hint">
+      <p>ใช้ปุ่มลูกศร <strong>↑ ↓ ← →</strong> บนคีย์บอร์ดเพื่อบังคับทิศทาง</p>
+      <button id="restartBtn">เริ่มเกมใหม่</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
